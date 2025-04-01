@@ -3,6 +3,7 @@ Flask-SQLAlchemy
 Flask-Login
 Flask-Mail
 Flask-WTF
+flask_migrate
 Werkzeug
 SQLAlchemy
 email-validator
