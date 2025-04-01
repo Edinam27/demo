@@ -1,0 +1,141 @@
+<!-- templates/about.html -->
+{% extends "layout.html" %} {% block title %}About Us - PureFlow{% endblock %}
+{% block content %}
+<section class="hero-small" data-aos="fade-in">
+  <div class="hero-content text-center">
+    <h1 class="hero-title">Our Journey to Purity</h1>
+    <p class="hero-subtitle">
+      Delivering nature's finest water with a commitment to sustainability and
+      excellence.
+    </p>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Story</h2>
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-content">
+          <h3>1995</h3>
+          <p>
+            PureFlow was born with a simple mission: to provide pure, refreshing
+            water to every household. Starting as a small family business, we
+            focused on quality and trust.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-left">
+        <div class="timeline-content">
+          <h3>2005</h3>
+          <p>
+            We expanded our horizons by introducing mineral-enhanced water
+            products, ensuring both health and taste for our customers.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-content">
+          <h3>2015</h3>
+          <p>
+            Our commitment to the planet led us to achieve carbon-neutral
+            status, making PureFlow a pioneer in sustainable water production.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-left">
+        <div class="timeline-content">
+          <h3>2023</h3>
+          <p>
+            Innovation took center stage as we launched eco-friendly packaging
+            solutions, reducing plastic waste and embracing a greener future.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Impact in Numbers</h2>
+    <div class="row">
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-box text-center">
+          <div class="stat-number" data-count="1000000">0</div>
+          <div class="stat-label">Bottles Produced Daily</div>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="stat-box text-center">
+          <div class="stat-number" data-count="50000">0</div>
+          <div class="stat-label">Happy Customers</div>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-box text-center">
+          <div class="stat-number" data-count="100">0</div>
+          <div class="stat-label">Distribution Centers</div>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+        <div class="stat-box text-center">
+          <div class="stat-number" data-count="95">0</div>
+          <div class="stat-label">Customer Satisfaction (%)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="values-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Core Values</h2>
+    <div class="row">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="value-card text-center">
+          <i class="fas fa-leaf value-icon"></i>
+          <h3>Sustainability</h3>
+          <p>
+            We are dedicated to preserving the environment through innovative
+            practices and eco-friendly solutions.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="value-card text-center">
+          <i class="fas fa-hand-holding-water value-icon"></i>
+          <h3>Quality Assurance</h3>
+          <p>
+            Every drop of PureFlow water undergoes rigorous testing to meet the
+            highest standards of purity and taste.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="value-card text-center">
+          <i class="fas fa-users value-icon"></i>
+          <h3>Community Focus</h3>
+          <p>
+            We believe in giving back by supporting local communities and
+            promoting responsible water management.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mission-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Mission</h2>
+    <p class="text-center">
+      To deliver the purest water while protecting the planet and empowering
+      communities. At PureFlow, we believe that every sip should inspire trust,
+      health, and sustainability.
+    </p>
+  </div>
+</section>
+{% endblock %} {% block scripts %}
+<script src="{{ url_for('static', filename='js/about.js') }}"></script>
+{% endblock %}
